@@ -1,0 +1,62 @@
+
+git --version
+
+git config --global user.name "jahid"
+git config --global user.email "email adress "
+
+
+#if i want to display different name and email for different project. 
+
+git config user.name "jahid"
+git config user.email "email adress "
+
+git init 
+
+# Working directory / staging area / repojitory 
+
+git add "file name" / --all ( for all file in that directory ) 
+
+git commit -m comment about changes
+
+git status 
+
+
+git log / git log --oneline 
+
+
+git chekcout "commit id"/ branch name  / master 
+
+git branch  name of the branch
+
+git branch -D branch name
+
+git branch ( shows how many branches you have ) 
+
+ 
+
+git checkout -b branch_name # creating new branch  & checkout to it. 
+
+
+git merge branch name 
+
+
+git diff two commit id 
+
+
+git reset
+
+
+git reset HEAD~
+
+
+
+
+puch, fetch(changes form remote )  , pull( fetch , merge ) 
+
+
+
+git branch -m master main
+
+
+
+   
