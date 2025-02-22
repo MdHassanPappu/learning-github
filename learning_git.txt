@@ -55,8 +55,32 @@ puch, fetch(changes form remote )  , pull( fetch , merge )
 
 
 
-git branch -m master main
+git branch -m master main # renaming master branch to main  branch . 
+
+
+git config --list 
 
 
 
+git remote -v
+
+git branch -a # showing all branch 
+git branch -r # only showing remote origin 
+
+
+
+# adding remote & deletation: 
+
+git remote add origin "ssh url "
+
+git remote remove origin 
+
+
+# git remote 
+
+git push -u origin main
+
+
+git fetch --prune is used to update your local references to the remote repository
+The --prune option in Git is shorthand for "pruning" or "cleaning up" references to branches that have been deleted from the remote repository.
    
